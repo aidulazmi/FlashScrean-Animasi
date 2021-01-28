@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".splash">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/first_line"
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/orange"></View>
+
+        <View
+            android:id="@+id/dua"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/first_line"
+            android:background="@drawable/yellow"></View>
+
+        <View
+            android:id="@+id/tiga"
+            android:layout_width="20dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/dua"
+            android:background="@drawable/orange"></View>
+
+        <View
+            android:id="@+id/empat"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/tiga"
+            android:background="@drawable/red"></View>
+
+        <View
+            android:id="@+id/lima"
+            android:layout_width="20dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/empat"
+            android:background="@drawable/orange"></View>
+
+        <View
+            android:id="@+id/enam"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/lima"
+            android:background="@drawable/yellow"></View>
+
+        <View
+            android:id="@+id/tujuh"
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/enam"
+            android:background="@drawable/orange"></View>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/baloo"
+            android:text="CYOW"
+            android:textColor="@color/black"
+            android:textSize="80sp"></TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/courgette"
+                android:text="Create Your Of Word"
+                android:textColor="#837F7F"
+                android:textSize="20sp">
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
